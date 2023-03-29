@@ -3,3 +3,4 @@ unidecode==0.4.14
 setuptools-odoo==3.1.7
 phonenumbers==8.10.19
 odoo-test-helper
+pdfminer.six
