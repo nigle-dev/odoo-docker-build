@@ -6,7 +6,7 @@ FROM smoosedev/odoo-base:batteries-included
 
 # 2. or adding each directory, this solution will reduce the build and download
 # time of the image on the server (layers are reused)
-COPY --chown=odoo:odoo ./src /odoo/src
+COPY --chown=odoo:odoo ./src/odoo /odoo/src
 COPY --chown=odoo:odoo ./external-src /odoo/external-src
 COPY --chown=odoo:odoo ./local-src /odoo/local-src
 COPY --chown=odoo:odoo ./data /odoo/data
